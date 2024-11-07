@@ -1,0 +1,86 @@
+/* Reset some default browser styles */
+body, h1, h2, h3, h4, h5, h6, p, ul, ol, li, figure, figcaption, blockquote, dl, dd {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Set default font and background color */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Container for the calculator */
+.calculator {
+  width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Display screen of the calculator */
+.calculator-screen {
+  width: 100%;
+  height: 80px;
+  background: #222;
+  color: #fff;
+  text-align: right;
+  padding: 20px;
+  font-size: 2.5em;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+/* Buttons of the calculator */
+.button {
+  width: 23%;
+  height: 60px;
+  margin: 1%;
+  font-size: 1.5em;
+  border: none;
+  border-radius: 5px;
+  background: #f4f4f4;
+  color: #333;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.button:hover {
+  background: #ddd;
+}
+
+.button:active {
+  background: #bbb;
+}
+
+/* Special button styles */
+.button-operator {
+  background: #ff9500;
+  color: #fff;
+}
+
+.button-operator:hover {
+  background: #e08900;
+}
+
+.button-operator:active {
+  background: #c07800;
+}
+
+.button-equal {
+  background: #34c759;
+  color: #fff;
+}
+
+.button-equal:hover {
+  background: #2da94f;
+}
+
+.button-equal:active {
+  background: #248a3f;
+}
